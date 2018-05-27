@@ -20,7 +20,7 @@ bot.on("messageCreate", (msg) =>{
         if(args[0]){
             const options = {
                 method: 'POST',
-                uri: 'http://sedwalrus.cf/shorten',
+                uri: 'https://sedwalrus.cf/shorten',
                 body: args[0],
                 headers: {
                     "Content-Type": "text/plain"
